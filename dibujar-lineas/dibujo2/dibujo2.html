@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando en canvas</title>
+    <link rel="stylesheet" src="dibujo.css">
+</head>
+<body>
+    <h1>Dibujo en canvas</h1>
+    <p>¿Cuantas Lineas Quieres?
+        <input type="number" id="numero_lineas" value="60" min="1" max="1200">
+        Ahora escoje el color de las lineas: 
+        <input type="color" id="coloreame" value=#0000ff>
+        <input type="button" value="A Dibujar!!" id="botoncito">
+        <input type="button" value="Borrar Dibujo" id="borrar">
+        
+    </p width="90%">
+  
+   <br>
+    <canvas id="dibujito"  width="600" height="600"></canvas>
+    <p>Así queda tu dibujo</p>
+    <script src="dibujo2.js"></script>
+</body>
+</html>

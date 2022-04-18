@@ -1,0 +1,70 @@
+body
+{
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+
+header
+{
+    background-image: url("img/solarSystem2.jpg");
+    /* background-color: black; */
+    width: 100%;
+    height: 300px;
+    box-shadow: 5px 5px 15px #ba9037;
+}
+
+
+h1
+{
+    width: 100%;
+    height: 300px;
+    float: none;
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px 50px 30px 50px;
+    margin: 0px;
+    color:white;
+    background-color:rgba(255,255,255,0.1);
+    /*border-radius:5px;
+    box-shadow: 5px 5px 10px #333333;*/
+    z-index: 1;
+}
+
+p
+{
+    margin: 30px 10px 10px 10px;
+}
+.selectores
+{
+    color: #333333;
+    float: left;
+}
+
+.resultando
+{
+    color: #333333;
+    float: none;
+}
+
+.botoncito
+{
+    font-size: 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width: 900px) {
+    h1 
+    {
+        font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 
+    {
+        font-size: 20px;
+    }
+  }

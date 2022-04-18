@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloPlanetario.css">
+</head>
+<body>
+<header>
+    <h1>Conoce tu peso en otros cuerpos del sistema solar</h1>
+</header>
+    
+    
+    
+    <p class="selectores">
+        Ingrese su peso actual en Libras:
+        <input type="text" id="tex_peso"/>
+        <br>
+        <br>
+
+        Seleccione el Cuerpo del sistema solar:
+        <select name="CuerposSistema" id="seleccionCuerpoSistema">
+            <option value="0">Seleccione</option>
+            <option value="1">Sol</option>
+            <option value="2">Luna</option>
+            <option value="3">Mercurio</option>
+            <option value="4">Venus</option>
+            <option value="5">Marte</option>
+            <option value="6">Jupiter</option>
+            <option value="7">Saturno</option>
+            <option value="8">Urano</option>
+            <option value="9">Neptuno</option>
+            <option value="10">Pluton</option>
+        </select>
+       <input type="button" value="Calcular Peso" id="boton_peso" class="botoncito"/>
+       <br>
+       <p id="resultado" class="resultando"></p>
+    </p>
+    <script src="javascript.js"></script>
+
+</body>
+</html>

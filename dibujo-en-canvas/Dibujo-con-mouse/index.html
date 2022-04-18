@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando con Mouse</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div_canvas">
+            <!-- <canvas class="canva" id="canvas_dibujo"></canvas> -->
+            <canvas class="canva" id="canvas_dibujo" width="960" height="550"></canvas>
+            <p>Presiona y mueve el mouse para dibujar</p>
+        </div>
+        <div class="div_controllers">
+            <div class="div_imput_color">
+                <input type="color" name="input_color" value="#1714C8"id="input_color">
+                <label for="input_color">Color</label>
+            </div>
+            <div class="div_input_grosor">
+                <input type="number" name="input_grosor_linea" id="input_grosor_linea" value="1" min="1" max="10" step="1">
+                <label for="input_grosor_linea">Grosor</label>
+            </div>
+            <div class="div_intput_reset">
+                <button class="btn_reset" id="btn_reset">Borrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>

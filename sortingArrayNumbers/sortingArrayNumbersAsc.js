@@ -1,6 +1,7 @@
 "use strict";
 
-let numbers = [8, 6, 3, 9, 2, 4, 7, 5, 1 ];
+const numbers = [8, 6, 3, 9, 2, 4,1, 7, 5, 1,3 , 9];
+// let numbers = [8, 6, 3, 9, 2, 4, 7, 5, 1 ];
 // let numbers = [ 10, 3, 7, 5, 8]; // 3, 5, 7, 8, 10
 console.group("Original");
     console.log( numbers);
